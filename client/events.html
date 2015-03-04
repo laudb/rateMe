@@ -1,0 +1,17 @@
+<template name="events">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+       <!--  <button>Create Events</button> -->
+        <!-- <button>Rate Events</button> -->
+      </div>
+      <div class="col-md-6">
+        {{> insertEventForm}}
+      </div>
+    </div>
+  </div>
+</template>
+
+<template name="insertEventForm">
+  {{> quickForm collection="Events" id="insertEventForm" type="insert"}}
+</template>
