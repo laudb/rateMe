@@ -4,7 +4,7 @@ Events = new Mongo.Collection("event");
 Events.attachSchema(new SimpleSchema({
   eventName:{
     type: String,
-    label: "Name of Class",
+    label: "Name of Event",
     max: 100
   },
   eventFellow:{
@@ -41,3 +41,9 @@ Events.attachSchema(new SimpleSchema({
 );
 
 
+// AutoForm.addHooks(['postInsert', 'postUpdate'], {
+//   onSuccess: function(operation, result, template) {
+//     FlashMessages.sendSuccess('Success!');
+//     Router.go("fellows");
+//   }
+// });
