@@ -12,13 +12,14 @@ Events.attachSchema(new SimpleSchema({
     label: "Name of Fellow",
     max: 100
   },
-  eventDate:{
-    type:Date,
-    label: "Date of Event",
-  },
-  eventTime:{
-    type:Number,
-    label: "Time of Event",
+  timeDuration: {
+    type: String,
+    optional: true,
+    autoform: {
+      afFieldInput: {
+        type: "datetime-local"
+      }
+    }
   }
 })
 );

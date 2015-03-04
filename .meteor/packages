@@ -12,3 +12,5 @@ fortawesome:fontawesome
 iron:router
 aldeed:autoform
 aldeed:collection2
+jquery
+aldeed:autoform-bs-datetimepicker
