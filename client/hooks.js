@@ -7,7 +7,7 @@ AutoForm.addHooks(null,{
 AutoForm.hooks({
   insertEventForm:{
     onSuccess:function(operation, result, template){
-      Router.go('fellows')
+      Router.go('listEvents')
     },
 
     onError: function(operation, result, template) {

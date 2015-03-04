@@ -10,26 +10,34 @@ Router.route('/', function(){
 	name: 'home'
 });
 
-Router.route('/fellows', function(){
-	this.render('fellows');
-},
-{
-	name: 'fellows',
-  data: function() {                
-    return {                        
-      fel: Fellows.find().fetch()
-    }
-  }
-});
+// Router.route('/fellows', function(){
+// 	this.render('fellows');
+// },
+// {
+// 	name: 'fellows',
+//   data: function() {                
+//     return {                        
+//       fel: Fellows.find().fetch()
+//     }
+//   }
+// });
 
-Router.route('/events',function(){
-  this.render('events');
+Router.route('/listEvents',function(){
+  this.render('listEvents');
 },
 {
-  name: 'events',
+  name: 'listEvents',
   data: function() {                
     return {                        
       eve: Events.find().fetch()
     }
   }
+});
+
+Router.route('/events', function(){
+  this.render('events');
+},
+{
+  name: 'events'
+  
 });

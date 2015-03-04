@@ -40,10 +40,3 @@ Events.attachSchema(new SimpleSchema({
 })
 );
 
-
-// AutoForm.addHooks(['postInsert', 'postUpdate'], {
-//   onSuccess: function(operation, result, template) {
-//     FlashMessages.sendSuccess('Success!');
-//     Router.go("fellows");
-//   }
-// });
