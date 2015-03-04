@@ -27,9 +27,9 @@
 
 				<div class="login flippy">
 					<ul>
-						<li><a data-toggle="modal" href="#loginModal"><span class="glyphicon glyphicon-user flippy-object"></span>Sign in</a></li>
+						<li><a data-toggle="modal" href="/sign-in"><span class="glyphicon glyphicon-user flippy-object"></span>Sign in</a></li>
 						<li> | </li>
-						<li><a href="#"><span class="glyphicon glyphicon-lock flippy-object"></span>Register now!</a></li>
+						<li><a href="/sign-up"><span class="glyphicon glyphicon-lock flippy-object"></span>Register now!</a></li>
 					</ul>
 				</div>
 
@@ -68,15 +68,15 @@
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
+						{{#if currentUser}}
 						<div class="collapse navbar-collapse navbar-ex1-collapse">
 							<ul class="nav navbar-nav flippy">
 								<li><a href="{{pathFor 'listEvents'}}"><span class="glyphicon glyphicon-bookmark flippy-object"></span>List of Events</a></li>
 								<li><a href="{{pathFor 'events'}}"><span class="glyphicon glyphicon-edit flippy-object"></span>Events</a></li>
-								
-								<!-- <li><a href="{{pathFor 'listEvents'}}"><span class="glyphicon glyphicon-briefcase flippy-object"></span>My Dashboard</a></li> -->
-								<!-- 	<li><a href="contact.html"><span class="glyphicon glyphicon-earphone flippy-object"></span>List of Events</a></li>   -->                        
+								<!-- <li><a href="{{pathFor 'listEvents'}}"><span class="glyphicon glyphicon-briefcase flippy-object"></span>My Dashboard</a></li> --> 	<li><a href="/sign-out"><span class="glyphicon glyphicon-earphone flippy-object"></span>Sign-Out</a></li>                       
 							</ul>
 						</div><!-- /.navbar-collapse -->
+						{{/if}}
 					</nav>
 				</div>
 			</div>
