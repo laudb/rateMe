@@ -1,0 +1,121 @@
+<template name="masterLayout">
+	{{> navigationbar}}
+	{{> yield}}
+	{{> footer}}
+</template>
+
+<template name="navigationbar">
+	<!--Start Header-->
+	<div class="container bg-white">	
+		<div class="row header">
+
+			<!--Start Logo-->
+			<div class="col-lg-9 col-md-7 col-sm-5 col-xs-12 logo flippy">
+				<ul>
+					<li>
+						<a href="#">
+							<span class="glyphicon flippy-object"><img class="img-responsive" src="images/mest-logo.png" width="150px" height="150px" alt="logo"></span>
+							
+						</a>
+					</li>
+				</ul>       
+			</div>
+			<!--End Logo-->
+
+			<div class="col-lg-3 col-md-5 col-sm-7 col-xs-12">
+
+				<div class="login flippy">
+					<ul>
+						<li><a data-toggle="modal" href="#loginModal"><span class="glyphicon glyphicon-user flippy-object"></span>Sign in</a></li>
+						<li> | </li>
+						<li><a href="#"><span class="glyphicon glyphicon-lock flippy-object"></span>Register now!</a></li>
+					</ul>
+				</div>
+
+				<form class="navbar-form" role="search">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+						<div class="input-group-btn">
+							<button class="btn btn-flippy" type="submit"><span class="fa fa-search"></span></button>
+						</div>
+					</div>
+				</form>
+			</div>
+
+		</div>     
+	</div>
+	<!--End Header--> 
+
+	<!--Start Menu-->   
+	<div class="container-fluid bg-blue">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+					<nav class="navbar navbar-default" role="navigation">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<ul class="nav navbar-nav flippy">
+								<li class="active"><a href="{{pathFor 'home'}}"><span class="glyphicon glyphicon-home flippy-object"></span>home</a></li>
+							</ul>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse navbar-ex1-collapse">
+							<ul class="nav navbar-nav flippy">
+								<li><a href="{{pathFor 'listEvents'}}"><span class="glyphicon glyphicon-bookmark flippy-object"></span>List of Events</a></li>
+								<li><a href="{{pathFor 'events'}}"><span class="glyphicon glyphicon-edit flippy-object"></span>Events</a></li>
+								
+								<!-- <li><a href="{{pathFor 'listEvents'}}"><span class="glyphicon glyphicon-briefcase flippy-object"></span>My Dashboard</a></li> -->
+								<!-- 	<li><a href="contact.html"><span class="glyphicon glyphicon-earphone flippy-object"></span>List of Events</a></li>   -->                        
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--End Menu-->     
+
+	<!--Start Flippy Ad-->     
+	<div class="container-fluid bg-grey visible-lg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 page-flip">
+
+					<div class="col-lg-10">The essence of this site is to rate your fellows for their hardwork</div>
+					<div class="col-lg-2 text-right">
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--End Flippy Ad--> 
+
+</template>
+
+
+<template name="footer">
+	<!--Start Footer 2-->
+	<div class="container-fluid bg-grey">
+		<div class="container">
+			<div class="row">
+				<div class="text-left col-lg-8 col-md-8 col-sm-12 col-xs-12 footer">
+					© Meltwater feedback
+				</div> 
+				<div class="text-right col-lg-4 col-md-4 col-sm-12 col-xs-12 footer">
+					<a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+				</div> 
+			</div>
+		</div>    
+	</div> 
+	<!--End Footer 2-->
+</template>

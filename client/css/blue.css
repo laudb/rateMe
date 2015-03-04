@@ -1,0 +1,264 @@
+.underline:after{
+	background:#1fb4da;	
+}
+
+.bg-blue{
+	background-color:#1fb4da;
+}
+.bg-dark-blue{
+	background-color:#1da8cb;
+}
+
+.bg-blue-trans{
+	background:#1fb4da url(../images/trans-bg-2.png) repeat;
+	
+}
+
+.footer-icons li{
+	background:#1da8cb;
+}
+
+.footer-icons li a{
+	background:#1da8cb;
+
+}
+
+.footer-icons li a:hover{
+	background:#1fb4da;
+}
+
+.back-to-top:hover {    
+	color:#1fb4da;
+}
+
+.pricing .featured{
+	border:#1da8cb 1px solid;
+	color:#1da8cb;
+}
+
+.pricing .featured h1{
+	color:#1da8cb;
+}
+
+.pricing .featured .panel-heading{
+	background-color:#1da8cb;	
+}
+
+.pricing .panel-heading{
+	background-color:#1fb4da;	
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+background-color: #1fb4da;
+border-color: #1da8cb;
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus {
+  border-color: #1fb4da;
+}
+
+a {
+color: #1fb4da;
+}
+
+a:hover {
+color: #1da8cb;
+}
+
+.badge {
+	background:#1fb4da;
+}
+.panel-title > a.selected {
+    background: #1fb4da;
+}
+.carousel-indicators li {
+	background:url(../images/carousel.png) no-repeat center center;
+}
+
+.carousel-indicators .active {
+	background:#1fb4da;
+}
+.btn-flippy {
+  background-color: #1fb4da;
+  border-color: #1fb4da;
+}
+
+.btn-flippy:hover,
+.btn-flippy:focus,
+.btn-flippy:active,
+.btn-flippy.active,
+.open .dropdown-toggle.btn-flippy {
+  background-color: #1da8cb;
+  border-color: #1da8cb;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: #1da8cb;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #1da8cb;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #1da8cb;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+background-color: #1da8cb;
+}
+
+.flippy-container > div.flippy-back {
+	background:#1fb4da;
+}
+.flippy-title-front{
+	background:#1fb4da;
+}
+
+.flippy-title-back{
+	color:#1fb4da;
+
+}
+.flippy-featured-container > div {
+	background:#1fb4da;
+
+}
+.flippy-featured-container > div.flippy-featured-back {
+	background:#1fb4da;
+}
+.flippy-featured-title-front{
+	background:#1da8cb;
+}
+
+.flippy-featured-subtitle-front{
+	background:#1da8cb;
+
+}
+
+.flippy-featured-title-back{
+	border-bottom:dotted 3px #1da8cb;
+}
+
+.flippy-blog-container > div.flippy-blog-back {
+	background:#1fb4da;
+}
+
+.avatar-name{
+	color:#1fb4da;	
+}
+.controls li.active{
+	background-color:#1fb4da;
+
+}
+
+.controls li.active:hover{
+	background-color:#1da8cb;
+
+}
+.flippy-btn-container > div {
+	background:#1fb4da;
+
+}
+.flippy-btn-container > div.flippy-btn-back {
+	background:#1fb4da;
+
+}
+
+.blog-date{
+	background-color:#1fb4da;
+}
+
+.blog-month{
+	color:#1fb4da;
+
+}
+
+.blog-title{
+	color:#1fb4da;
+	
+}
+
+.cbp_tmtimeline {
+	margin: 30px 0 0 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+} 
+
+.cbp_tmtimeline:before {
+	background: #afdcf8;
+
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span:last-child {
+	color: #1da8cb;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
+	color: #1fb4da;
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel {
+	color: #1fb4da;
+	border-left:5px #1fb4da solid;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
+	color:#1da8cb;
+	border-left:5px #1da8cb solid;
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel:after {
+
+	border-right-color: #1fb4da;
+
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+	border-right-color: #1da8cb;
+}
+
+.cbp_tmtimeline > li .cbp_tmicon {
+
+	background: #1fb4da;
+	box-shadow: 0 0 0 8px #afdcf8;
+}
+@media screen and (max-width: 47.2em) {
+	.cbp_tmtimeline > li .cbp_tmlabel:after {
+
+		border-bottom-color: #1da8cb;
+	}
+
+	.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+		border-bottom-color: #1fb4da;
+	}
+
+}
+
+.under-title{
+	color:#1fb4da;
+	
+}
+
+@media  (max-width: 600px) {
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: #1fb4da;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #1fb4da;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #1fb4da;
+}	
+}
