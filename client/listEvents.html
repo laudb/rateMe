@@ -3,7 +3,6 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
-        
         <div class="mypanel">
           <div class="panel panel-primary">
             <div class="panel-heading">
@@ -14,6 +13,11 @@
             <div class="panel-body">
               {{eventName}}
               {{timeDuration}}
+              <div class="below">
+                {{#if currentUser}}
+                Rating: {{> rating}}
+                {{/if}} 
+              </div>
             </div>
           </div>
         </div>
@@ -21,4 +25,9 @@
     </div>
   </div>
   {{/each}}
+</template>
+<template name="rating">
+  <div class="rateit">
+
+  </div>
 </template>

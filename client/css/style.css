@@ -1,11 +1,24 @@
-.mypanle{
+/*.mypanel{
 	width: 400px;
 	height: 900px;
 }
-
+*/
 .panel{
 	height: 200px;
 	width: 300px;
 	margin-left: 200px;
 }
+.col-sm-4 {
+	width: 33.33333333%;
+	padding: 6px;
 }
+
+/*.below{
+	margin-top: 300px;
+	margin-left: 100px;
+	}*/
+	.eventForm{
+		padding: 1px;
+		height: 390px;
+		margin-top: 30px;
+	}
