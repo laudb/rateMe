@@ -24,7 +24,7 @@
 			<!--End Logo-->
 
 			<div class="col-lg-3 col-md-5 col-sm-7 col-xs-12">
-
+				<!-- {{#if currentUser}} -->
 				<div class="login flippy">
 					<ul>
 						<li><a data-toggle="modal" href="/sign-in"><span class="glyphicon glyphicon-user flippy-object"></span>Sign in</a></li>
@@ -32,7 +32,7 @@
 						<li><a href="/sign-up"><span class="glyphicon glyphicon-lock flippy-object"></span>Register now!</a></li>
 					</ul>
 				</div>
-
+				<!-- {{/if}} -->
 				
 			</div>
 
@@ -64,8 +64,8 @@
 						{{#if currentUser}}
 						<div class="collapse navbar-collapse navbar-ex1-collapse">
 							<ul class="nav navbar-nav flippy">
-								<li><a href="{{pathFor 'listEvents'}}"><span class="glyphicon glyphicon-bookmark flippy-object"></span>List of Events</a></li>
-								<li><a href="{{pathFor 'events'}}"><span class="glyphicon glyphicon-edit flippy-object"></span>Events</a></li>
+								<li><a href="{{pathFor 'listEvents'}}"><span class="glyphicon glyphicon-bookmark flippy-object"></span>List of Lectures</a></li>
+								<li><a href="{{pathFor 'events'}}"><span class="glyphicon glyphicon-edit flippy-object"></span>Create Lecture</a></li>
 								<!-- <li><a href="{{pathFor 'listEvents'}}"><span class="glyphicon glyphicon-briefcase flippy-object"></span>My Dashboard</a></li> --> 	<li><a href="/sign-out"><span class="glyphicon glyphicon-earphone flippy-object"></span>Sign-Out</a></li>                       
 							</ul>
 						</div><!-- /.navbar-collapse -->
